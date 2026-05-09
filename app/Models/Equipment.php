@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Equipment extends Model
 {
-    //
+    protected $fillable = ['name', 'serial_number', 'status'];
 }
